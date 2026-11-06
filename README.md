@@ -14,6 +14,7 @@ test conventions), those rules win and the skill adds only its process.
 | `bgw-review-flow` | You review a PR, or your own changes before opening one | `/bgw-review-flow <PR>`, `/bgw-review-flow`, `/bgw-review-flow staged` |
 | `bgw-pr-brief` | You want to understand a PR before reading it | `/bgw-pr-brief <PR>` |
 | `bgw-qa-walk` | You want to see a UI change working in the browser | `/bgw-qa-walk` |
+| `bgw-explain` | You want something explained fully, in simple Romanian | `/bgw-explain`, `/bgw-explain <term, error, file>` |
 
 A typical ticket: `bgw-task-flow` (it runs `bgw-analysis-flow` as phase 1), then
 `bgw-qa-walk` if the change is user-facing, then `bgw-review-flow` on the branch
@@ -107,6 +108,24 @@ and seed data with you first, then walks the happy path and each edge case. It
 reports a table of path, expected, observed, and pass or fail, with screenshots
 of final states and failures. It never infers a pass from reading code.
 
+### bgw-explain
+
+Stops the work and explains, in simple Romanian. With no argument it explains where
+the session is now; with one it explains that thing in the session's context. Always
+four parts: in short, how it works (as steps, with a real example from the session),
+why it matters here, and what to remember. A small Mermaid diagram when the
+explanation is a flow. Technical terms stay in English with a Romanian gloss.
+
+## Output style: bgw-plain
+
+[`output-styles/bgw-plain.md`](output-styles/bgw-plain.md) makes every chat message
+Romanian, short, and explained: the result first, then the mechanism in two to four
+plain sentences, then the consequence when it matters. Anything that reaches a
+repository or other people stays in English. It keeps Claude Code's coding
+instructions (`keep-coding-instructions: true`).
+
+Select it in Settings → Claude Code → Output style. It applies to new sessions.
+
 ## Global working agreement
 
 [`claude/CLAUDE.md`](claude/CLAUDE.md) is the global `~/.claude/CLAUDE.md`: process,
@@ -119,8 +138,9 @@ git clone https://github.com/bogdan-dimoiu/bgw-skills.git $HOME\Desktop\CODE\bgw
 & $HOME\Desktop\CODE\bgw-skills\install.ps1
 ```
 
-The script links each skill folder into `~/.claude/skills` with a Windows junction,
-so editing a skill in the repository changes it in Claude Code at once. It copies
+The script links each skill folder into `~/.claude/skills`, and the `output-styles`
+folder to `~/.claude/output-styles`, with Windows junctions, so editing a skill in the
+repository changes it in Claude Code at once. It copies
 `claude/CLAUDE.md` to `~/.claude/CLAUDE.md`. Anything it would replace is moved
 to `~/.claude/bgw-backup-<timestamp>` first.
 
