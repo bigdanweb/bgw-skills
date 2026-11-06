@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1029" viewBox="0 0 800 1029">
+<title>bgw-review-flow</title>
+<rect width="800" height="1029" fill="#0b0b0b"/>
+<path d="M0 409.25 Q0 377.25 32 377.25 H768 Q800 377.25 800 409.25 V1029 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Claude skill · code review</text>
+<text x="45" y="203.6" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="67" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.34">READ WIDE,</text>
+<text x="45" y="267.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="67" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.34">REPORT NARROW.</text>
+<text x="48" y="325.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">Reads around the diff. Reports only what the diff causes.</text>
+<rect x="48" y="413.25" width="704" height="355" rx="14" fill="#0d0d0d"/>
+<text x="68" y="439.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">1 · Target</text>
+<text x="732" y="439.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">from the argument</text>
+<text x="68" y="465.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">PR · branch · staged · commit</tspan><tspan fill="#6f6f6f"> · re-review if a file exists</tspan></text>
+<line x1="48" x2="752" y1="484.25" y2="484.25" stroke="#262626"/>
+<text x="68" y="510.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">2 · Orient</text>
+<text x="732" y="510.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="536.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">/bgw-pr-brief · gh pr checks</tspan><tspan fill="#6f6f6f"> · /bgw-analysis-flow</tspan></text>
+<line x1="48" x2="752" y1="555.25" y2="555.25" stroke="#262626"/>
+<text x="68" y="581.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">3 · Findings</text>
+<text x="732" y="581.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">evidence bar</text>
+<text x="68" y="607.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">blocker=verified  warning=read</tspan><tspan fill="#6f6f6f">  assumed→question</tspan></text>
+<line x1="48" x2="752" y1="626.25" y2="626.25" stroke="#262626"/>
+<text x="68" y="652.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">4 · Checkpoint</text>
+<text x="732" y="652.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">stop</text>
+<text x="68" y="678.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">counts · findings · questions</tspan><tspan fill="#6f6f6f"> · recommended verdict</tspan></text>
+<line x1="48" x2="752" y1="697.25" y2="697.25" stroke="#262626"/>
+<text x="68" y="723.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">5 · Deliver</text>
+<text x="732" y="723.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">after your yes</text>
+<text x="68" y="749.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">pending review on GitHub</tspan><tspan fill="#6f6f6f"> · own code stays local</tspan></text>
+<text x="48.0" y="814.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="846.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Repo rules win</text>
+<text x="48.0" y="874.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Severities, format and</text>
+<text x="48.0" y="895.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">area skills come from</text>
+<text x="48.0" y="916.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">the repo when it has them.</text>
+<text x="290.66666666666663" y="814.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="846.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Never posts alone</text>
+<text x="290.66666666666663" y="874.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Draft review only after</text>
+<text x="290.66666666666663" y="895.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">your yes. You submit</text>
+<text x="290.66666666666663" y="916.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">it yourself.</text>
+<text x="533.3333333333333" y="814.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="846.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Re-review</text>
+<text x="533.3333333333333" y="874.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">fixed · declined · open,</text>
+<text x="533.3333333333333" y="895.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">checked in the code,</text>
+<text x="533.3333333333333" y="916.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">then the new diff.</text>
+<line x1="48" x2="752" y1="971.25" y2="971.25" stroke="#cfcfcf"/>
+<text x="48" y="1003.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">/bgw-review-flow &lt;PR&gt; | staged | commit</text>
+<text x="752" y="1003.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>

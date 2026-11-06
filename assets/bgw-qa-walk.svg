@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="951" viewBox="0 0 800 951">
+<title>bgw-qa-walk</title>
+<rect width="800" height="951" fill="#0b0b0b"/>
+<path d="M0 402.25 Q0 370.25 32 370.25 H768 Q800 370.25 800 402.25 V951 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Claude skill · browser QA</text>
+<text x="45" y="200.4" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.26">SEE IT.</text>
+<text x="45" y="260.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="63" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.26">DON'T INFER IT.</text>
+<text x="48" y="318.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">A browser walkthrough of a UI change.</text>
+<rect x="48" y="406.25" width="704" height="284" rx="14" fill="#0d0d0d"/>
+<text x="68" y="432.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Before</text>
+<text x="732" y="432.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">you confirm</text>
+<text x="68" y="458.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">URL · route · tenant · role</tspan><tspan fill="#6f6f6f"> · flags · seed data</tspan></text>
+<line x1="48" x2="752" y1="477.25" y2="477.25" stroke="#262626"/>
+<text x="68" y="503.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Walk</text>
+<text x="732" y="503.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">per path</text>
+<text x="68" y="529.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">happy path first</tspan><tspan fill="#6f6f6f"> · then each edge case</tspan></text>
+<line x1="48" x2="752" y1="548.25" y2="548.25" stroke="#262626"/>
+<text x="68" y="574.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Capture</text>
+<text x="732" y="574.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">per path</text>
+<text x="68" y="600.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">final state + every failure</tspan><tspan fill="#6f6f6f"> · console · network</tspan></text>
+<line x1="48" x2="752" y1="619.25" y2="619.25" stroke="#262626"/>
+<text x="68" y="645.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Report</text>
+<text x="732" y="645.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">table</text>
+<text x="68" y="671.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">path | expected | observed | pass/fail</tspan><tspan fill="#6f6f6f"></tspan></text>
+<text x="48.0" y="736.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="768.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Observed means seen</text>
+<text x="48.0" y="796.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">An empty 'observed' cell</text>
+<text x="48.0" y="817.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">means nobody looked.</text>
+<text x="290.66666666666663" y="736.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="768.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Names the gaps</text>
+<text x="290.66666666666663" y="796.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Any state it couldn't</text>
+<text x="290.66666666666663" y="817.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">reach, and why.</text>
+<text x="533.3333333333333" y="736.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="768.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">No code-reading passes</text>
+<text x="533.3333333333333" y="796.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Never infers a pass</text>
+<text x="533.3333333333333" y="817.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">from code it read.</text>
+<line x1="48" x2="752" y1="893.25" y2="893.25" stroke="#cfcfcf"/>
+<text x="48" y="925.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">/bgw-qa-walk</text>
+<text x="752" y="925.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>

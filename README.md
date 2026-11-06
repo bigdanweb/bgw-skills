@@ -23,6 +23,8 @@ before opening the PR, and `bgw-review-flow` again after fixes. A bug starts wit
 
 ### bgw-analysis-flow
 
+![bgw-analysis-flow](assets/bgw-analysis-flow.svg)
+
 Understands a problem completely before anything is planned or changed. It works
 in rounds and stops after each one.
 
@@ -41,6 +43,8 @@ in rounds and stops after each one.
 
 ### bgw-task-flow
 
+![bgw-task-flow](assets/bgw-task-flow.svg)
+
 Research, plan, implement, verify, summarise. Stops for confirmation between every
 phase and every step.
 
@@ -53,6 +57,8 @@ phase and every step.
    Mermaid diagram per section, and adjacent items you noticed but did not fix.
 
 ### bgw-debug-flow
+
+![bgw-debug-flow](assets/bgw-debug-flow.svg)
 
 Reproduce, hypothesise, prove the cause, fix with a regression test, summarise.
 No fix before the cause is proven.
@@ -70,6 +76,8 @@ No fix before the cause is proven.
 Extra checklists for UI and browser bugs, server and API bugs, and CI and tooling bugs.
 
 ### bgw-review-flow
+
+![bgw-review-flow](assets/bgw-review-flow.svg)
 
 Reads around the diff, reports only on the diff. Works on someone else's PR or on
 your own changes, and re-reviews after fixes.
@@ -95,6 +103,8 @@ committed code, then reviews only the new diff.
 
 ### bgw-pr-brief
 
+![bgw-pr-brief](assets/bgw-pr-brief.svg)
+
 A read-only briefing that makes a large PR reviewable. No findings, no verdict,
 nothing written to GitHub. Five sections, grounded in the diff rather than the PR
 description: purpose, plain-language summary, how to review it (files split by
@@ -103,12 +113,16 @@ the author.
 
 ### bgw-qa-walk
 
+![bgw-qa-walk](assets/bgw-qa-walk.svg)
+
 A browser walkthrough of a UI change. It confirms URL, route, tenant, role, flags,
 and seed data with you first, then walks the happy path and each edge case. It
 reports a table of path, expected, observed, and pass or fail, with screenshots
 of final states and failures. It never infers a pass from reading code.
 
 ### bgw-explain
+
+![bgw-explain](assets/bgw-explain.svg)
 
 Stops the work and explains, in simple Romanian. With no argument it explains where
 the session is now; with one it explains that thing in the session's context. Always
@@ -117,6 +131,8 @@ why it matters here, and what to remember. A small Mermaid diagram when the
 explanation is a flow. Technical terms stay in English with a Romanian gloss.
 
 ## Output style: bgw-plain
+
+![bgw-plain](assets/bgw-plain.svg)
 
 [`output-styles/bgw-plain.md`](output-styles/bgw-plain.md) makes every chat message
 Romanian, short, and explained: the result first, then the mechanism in two to four

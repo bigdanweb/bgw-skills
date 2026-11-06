@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1062" viewBox="0 0 800 1062">
+<title>bgw-task-flow</title>
+<rect width="800" height="1062" fill="#0b0b0b"/>
+<path d="M0 442.5 Q0 410.5 32 410.5 H768 Q800 410.5 800 442.5 V1062 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Claude skill · implementation</text>
+<text x="45" y="218.8" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="86" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.72">FROM TICKET</text>
+<text x="45" y="300.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="86" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.72">TO DIFF.</text>
+<text x="48" y="358.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">Research, plan, implement, verify, summarise.</text>
+<rect x="48" y="446.5" width="704" height="355" rx="14" fill="#0d0d0d"/>
+<text x="68" y="472.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">1 · Research</text>
+<text x="732" y="472.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="498.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">/bgw-analysis-flow</tspan><tspan fill="#6f6f6f"> → analysis file</tspan></text>
+<line x1="48" x2="752" y1="517.5" y2="517.5" stroke="#262626"/>
+<text x="68" y="543.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">2 · Plan</text>
+<text x="732" y="543.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="569.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">technical · business · steps</tspan><tspan fill="#6f6f6f"> each verifiable</tspan></text>
+<line x1="48" x2="752" y1="588.5" y2="588.5" stroke="#262626"/>
+<text x="68" y="614.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">3 · Implement</text>
+<text x="732" y="614.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">per step ↻</text>
+<text x="68" y="640.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">smallest diff + tests</tspan><tspan fill="#6f6f6f"> · docs it invalidates</tspan></text>
+<line x1="48" x2="752" y1="659.5" y2="659.5" stroke="#262626"/>
+<text x="68" y="685.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">4 · Verify</text>
+<text x="732" y="685.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">per step ↻</text>
+<text x="68" y="711.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">run the suite · review the diff</tspan><tspan fill="#6f6f6f"> · what was verified</tspan></text>
+<line x1="48" x2="752" y1="730.5" y2="730.5" stroke="#262626"/>
+<text x="68" y="756.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">5 · Summarise</text>
+<text x="732" y="756.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="782.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">docs/&lt;task-name&gt;.md</tspan><tspan fill="#6f6f6f"> · one Mermaid per section</tspan></text>
+<text x="48.0" y="847.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="879.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Stops often</text>
+<text x="48.0" y="907.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Waits for your yes</text>
+<text x="48.0" y="928.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">between every phase</text>
+<text x="48.0" y="949.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">and every step.</text>
+<text x="290.66666666666663" y="847.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="879.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Small steps</text>
+<text x="290.66666666666663" y="907.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Each step names its</text>
+<text x="290.66666666666663" y="928.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">tests and its doc</text>
+<text x="290.66666666666663" y="949.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">impact up front.</text>
+<text x="533.3333333333333" y="847.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="879.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Hands off to QA</text>
+<text x="533.3333333333333" y="907.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">User-facing change?</text>
+<text x="533.3333333333333" y="928.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">It tells you to run</text>
+<text x="533.3333333333333" y="949.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">/bgw-qa-walk.</text>
+<line x1="48" x2="752" y1="1004.5" y2="1004.5" stroke="#cfcfcf"/>
+<text x="48" y="1036.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">/bgw-task-flow &lt;ticket&gt; &lt;what to build&gt;</text>
+<text x="752" y="1036.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>

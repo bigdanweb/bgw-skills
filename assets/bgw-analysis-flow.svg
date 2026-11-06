@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1149" viewBox="0 0 800 1149">
+<title>bgw-analysis-flow</title>
+<rect width="800" height="1149" fill="#0b0b0b"/>
+<path d="M0 458.25 Q0 426.25 32 426.25 H768 Q800 426.25 800 458.25 V1149 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Claude skill · analysis</text>
+<text x="45" y="226.0" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="95" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.9000000000000001">UNDERSTAND</text>
+<text x="45" y="316.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="95" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.9000000000000001">FIRST.</text>
+<text x="48" y="374.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">Seven lenses, in rounds. Every claim carries its evidence.</text>
+<rect x="48" y="462.25" width="704" height="426" rx="14" fill="#0d0d0d"/>
+<text x="68" y="488.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Setup</text>
+<text x="732" y="488.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="514.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">git status</tspan><tspan fill="#6f6f6f"> · ~/.claude/analyses/&lt;repo&gt;/&lt;task&gt;.md</tspan></text>
+<line x1="48" x2="752" y1="533.25" y2="533.25" stroke="#262626"/>
+<text x="68" y="559.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Round 1 · every lens</text>
+<text x="732" y="559.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">levels 1–2</text>
+<text x="68" y="585.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">code · data · business · process</tspan><tspan fill="#6f6f6f"> · history · tests · failure</tspan></text>
+<line x1="48" x2="752" y1="604.25" y2="604.25" stroke="#262626"/>
+<text x="68" y="630.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Labels</text>
+<text x="732" y="630.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">on every claim</text>
+<text x="68" y="656.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">verified  read  told  assumed</tspan><tspan fill="#6f6f6f"></tspan></text>
+<line x1="48" x2="752" y1="675.25" y2="675.25" stroke="#262626"/>
+<text x="68" y="701.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Checkpoint</text>
+<text x="732" y="701.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">stop</text>
+<text x="68" y="727.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">findings · label count · questions</tspan><tspan fill="#6f6f6f"> · open branches</tspan></text>
+<line x1="48" x2="752" y1="746.25" y2="746.25" stroke="#262626"/>
+<text x="68" y="772.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Later rounds</text>
+<text x="732" y="772.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">you pick</text>
+<text x="68" y="798.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">one level deeper</tspan><tspan fill="#6f6f6f"> · only the branches you chose</tspan></text>
+<line x1="48" x2="752" y1="817.25" y2="817.25" stroke="#262626"/>
+<text x="68" y="843.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Done</text>
+<text x="732" y="843.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">verdict</text>
+<text x="68" y="869.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">decision rests on verified or told</tspan><tspan fill="#6f6f6f"></tspan></text>
+<text x="48.0" y="934.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="966.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Asks less</text>
+<text x="48.0" y="994.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Answers what it can itself.</text>
+<text x="48.0" y="1015.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Asks you about intent and</text>
+<text x="48.0" y="1036.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">business rules only.</text>
+<text x="290.66666666666663" y="934.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="966.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Leaves no trace</text>
+<text x="290.66666666666663" y="994.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Temporary changes removed;</text>
+<text x="290.66666666666663" y="1015.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">git status matches the</text>
+<text x="290.66666666666663" y="1036.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">starting state.</text>
+<text x="533.3333333333333" y="934.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="966.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Feeds the flows</text>
+<text x="533.3333333333333" y="994.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Phase 1 of task-flow and</text>
+<text x="533.3333333333333" y="1015.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">debug-flow. Plan starts</text>
+<text x="533.3333333333333" y="1036.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">from its file.</text>
+<line x1="48" x2="752" y1="1091.25" y2="1091.25" stroke="#cfcfcf"/>
+<text x="48" y="1123.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">/bgw-analysis-flow &lt;ticket or question&gt;</text>
+<text x="752" y="1123.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>

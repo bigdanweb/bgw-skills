@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040">
+<title>bgw-explain</title>
+<rect width="800" height="1040" fill="#0b0b0b"/>
+<path d="M0 419.75 Q0 387.75 32 387.75 H768 Q800 387.75 800 419.75 V1040 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Claude skill · explanation</text>
+<text x="45" y="208.4" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="73" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.46">PLAIN WORDS,</text>
+<text x="45" y="277.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="73" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.46">REAL EXAMPLE.</text>
+<text x="48" y="335.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">Stops the work and explains, in simple Romanian.</text>
+<rect x="48" y="423.75" width="704" height="355" rx="14" fill="#0d0d0d"/>
+<text x="68" y="449.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Input</text>
+<text x="732" y="449.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">optional</text>
+<text x="68" y="475.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">/bgw-explain</tspan><tspan fill="#6f6f6f"> · /bgw-explain junction · eroarea de mai sus</tspan></text>
+<line x1="48" x2="752" y1="494.75" y2="494.75" stroke="#262626"/>
+<text x="68" y="520.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">1 · Pe scurt</text>
+<text x="732" y="520.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">one sentence</text>
+<text x="68" y="546.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">ce e, pe scurt</tspan><tspan fill="#6f6f6f"></tspan></text>
+<line x1="48" x2="752" y1="565.75" y2="565.75" stroke="#262626"/>
+<text x="68" y="591.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">2 · Cum funcționează</text>
+<text x="732" y="591.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">steps</text>
+<text x="68" y="617.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">mecanismul, pas cu pas</tspan><tspan fill="#6f6f6f"> · exemplu din sesiune</tspan></text>
+<line x1="48" x2="752" y1="636.75" y2="636.75" stroke="#262626"/>
+<text x="68" y="662.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">3 · De ce contează aici</text>
+<text x="732" y="662.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">consequence</text>
+<text x="68" y="688.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">ce se strică · cine observă</tspan><tspan fill="#6f6f6f"></tspan></text>
+<line x1="48" x2="752" y1="707.75" y2="707.75" stroke="#262626"/>
+<text x="68" y="733.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">4 · De reținut</text>
+<text x="732" y="733.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">1–2 lines</text>
+<text x="68" y="759.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">ce iei cu tine</tspan><tspan fill="#6f6f6f"> · + Mermaid when it's a flow</tspan></text>
+<text x="48.0" y="824.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="856.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Romanian</text>
+<text x="48.0" y="884.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">The simplest words that</text>
+<text x="48.0" y="905.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">are still correct.</text>
+<text x="290.66666666666663" y="824.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="856.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Terms kept</text>
+<text x="290.66666666666663" y="884.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">English term, Romanian</text>
+<text x="290.66666666666663" y="905.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">gloss the first time.</text>
+<text x="533.3333333333333" y="824.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="856.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Never false</text>
+<text x="533.3333333333333" y="884.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">A simplification that</text>
+<text x="533.3333333333333" y="905.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">drops a case says so.</text>
+<line x1="48" x2="752" y1="981.75" y2="981.75" stroke="#cfcfcf"/>
+<text x="48" y="1013.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">/bgw-explain [term | error | file]</text>
+<text x="752" y="1013.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>

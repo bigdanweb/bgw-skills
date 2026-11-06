@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1050" viewBox="0 0 800 1050">
+<title>bgw-debug-flow</title>
+<rect width="800" height="1050" fill="#0b0b0b"/>
+<path d="M0 430.25 Q0 398.25 32 398.25 H768 Q800 398.25 800 430.25 V1050 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Claude skill · debugging</text>
+<text x="45" y="213.2" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="79" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.58">PROVE IT,</text>
+<text x="45" y="288.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="79" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.58">THEN FIX IT.</text>
+<text x="48" y="346.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">No fix before the cause switches the bug on and off.</text>
+<rect x="48" y="434.25" width="704" height="355" rx="14" fill="#0d0d0d"/>
+<text x="68" y="460.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">1 · Reproduce</text>
+<text x="732" y="460.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="486.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">/bgw-analysis-flow</tspan><tspan fill="#6f6f6f"> → a loop that fails on demand</tspan></text>
+<line x1="48" x2="752" y1="505.25" y2="505.25" stroke="#262626"/>
+<text x="68" y="531.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">2 · Hypothesise</text>
+<text x="732" y="531.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="557.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">2–4 ranked causes</tspan><tspan fill="#6f6f6f"> · one check that rules each out</tspan></text>
+<line x1="48" x2="752" y1="576.25" y2="576.25" stroke="#262626"/>
+<text x="68" y="602.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">3 · Prove</text>
+<text x="732" y="602.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="628.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">bug on ↔ bug off</tspan><tspan fill="#6f6f6f"> · root cause, not the call site</tspan></text>
+<line x1="48" x2="752" y1="647.25" y2="647.25" stroke="#262626"/>
+<text x="68" y="673.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">4 · Fix</text>
+<text x="732" y="673.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">per step ↻</text>
+<text x="68" y="699.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">red test → smallest fix → suite</tspan><tspan fill="#6f6f6f"> · logging removed</tspan></text>
+<line x1="48" x2="752" y1="718.25" y2="718.25" stroke="#262626"/>
+<text x="68" y="744.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">5 · Summarise</text>
+<text x="732" y="744.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
+<text x="68" y="770.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">docs/&lt;bug-name&gt;.md</tspan><tspan fill="#6f6f6f"> · why it was missed</tspan></text>
+<text x="48.0" y="835.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="867.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">UI / browser</text>
+<text x="48.0" y="895.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Console and network on</text>
+<text x="48.0" y="916.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">the failing path; check</text>
+<text x="48.0" y="937.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">hydration and caches.</text>
+<text x="290.66666666666663" y="835.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="867.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Server / API</text>
+<text x="290.66666666666663" y="895.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Find the request in logs;</text>
+<text x="290.66666666666663" y="916.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">call it directly; ours</text>
+<text x="290.66666666666663" y="937.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">or the upstream's?</text>
+<text x="533.3333333333333" y="835.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="867.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">CI / tooling</text>
+<text x="533.3333333333333" y="895.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">First error, not last line;</text>
+<text x="533.3333333333333" y="916.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">compare versions; rerun</text>
+<text x="533.3333333333333" y="937.25" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">once for flaky.</text>
+<line x1="48" x2="752" y1="992.25" y2="992.25" stroke="#cfcfcf"/>
+<text x="48" y="1024.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">/bgw-debug-flow &lt;symptom&gt;</text>
+<text x="752" y="1024.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>

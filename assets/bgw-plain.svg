@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="969" viewBox="0 0 800 969">
+<title>bgw-plain</title>
+<rect width="800" height="969" fill="#0b0b0b"/>
+<path d="M0 419.75 Q0 387.75 32 387.75 H768 Q800 387.75 800 419.75 V969 H0 Z" fill="#ebebeb"/>
+<text x="48" y="58" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="0">Bogdan Dimoiu</text>
+<text x="752" y="58" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#d6d6d6" text-anchor="end" letter-spacing="0">Output style · every message</text>
+<text x="45" y="208.4" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="73" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.46">RESULT FIRST,</text>
+<text x="45" y="277.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="73" font-weight="800" fill="#ffffff" text-anchor="start" letter-spacing="-1.46">THEN WHY.</text>
+<text x="48" y="335.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#9b9b9b" text-anchor="start" letter-spacing="0">Every chat message: short, explained, in Romanian.</text>
+<rect x="48" y="423.75" width="704" height="284" rx="14" fill="#0d0d0d"/>
+<text x="68" y="449.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">1 · Result</text>
+<text x="732" y="449.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">first sentence</text>
+<text x="68" y="475.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">what happened, or the answer</tspan><tspan fill="#6f6f6f"></tspan></text>
+<line x1="48" x2="752" y1="494.75" y2="494.75" stroke="#262626"/>
+<text x="68" y="520.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">2 · Mechanism</text>
+<text x="732" y="520.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">2–4 sentences</text>
+<text x="68" y="546.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">X se întâmplă, deci Y</tspan><tspan fill="#6f6f6f"> · a real example</tspan></text>
+<line x1="48" x2="752" y1="565.75" y2="565.75" stroke="#262626"/>
+<text x="68" y="591.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">3 · Consequence</text>
+<text x="732" y="591.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">when it matters</text>
+<text x="68" y="617.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">what breaks · who notices</tspan><tspan fill="#6f6f6f"> · what it costs</tspan></text>
+<line x1="48" x2="752" y1="636.75" y2="636.75" stroke="#262626"/>
+<text x="68" y="662.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">Language</text>
+<text x="732" y="662.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">split</text>
+<text x="68" y="688.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">chat + analyses: română</tspan><tspan fill="#6f6f6f"> · repo + people: English</tspan></text>
+<text x="48.0" y="753.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
+<text x="48.0" y="785.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Always on</text>
+<text x="48.0" y="813.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Selected once in</text>
+<text x="48.0" y="834.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Settings; applies to</text>
+<text x="48.0" y="855.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">every new session.</text>
+<text x="290.66666666666663" y="753.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">02</text>
+<text x="290.66666666666663" y="785.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Coding intact</text>
+<text x="290.66666666666663" y="813.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">keep-coding-instructions</text>
+<text x="290.66666666666663" y="834.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">is true, so the coding</text>
+<text x="290.66666666666663" y="855.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">rules stay.</text>
+<text x="533.3333333333333" y="753.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">03</text>
+<text x="533.3333333333333" y="785.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Full detail</text>
+<text x="533.3333333333333" y="813.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Errors, warnings and</text>
+<text x="533.3333333333333" y="834.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">confirmations keep</text>
+<text x="533.3333333333333" y="855.75" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">their full content.</text>
+<line x1="48" x2="752" y1="910.75" y2="910.75" stroke="#cfcfcf"/>
+<text x="48" y="942.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="start" letter-spacing="0">Settings → Claude Code → Output style</text>
+<text x="752" y="942.75" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#111111" text-anchor="end" letter-spacing="0">bgw-skills</text>
+</svg>
