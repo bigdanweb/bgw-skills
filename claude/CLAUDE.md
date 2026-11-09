@@ -4,7 +4,7 @@
 - One step at a time. Stop and confirm before moving to the next.
 - Batch clarifying questions into a single message before starting work.
 - Use plan mode for anything beyond a single-file change.
-- For a full task workflow, run /bgw-task-flow. For debugging, run /bgw-debug-flow. To only analyse a problem, run /bgw-analysis-flow. For code review, run /bgw-review-flow. For browser QA, run /bgw-qa-walk.
+- For a full task workflow, run /bgw-task-flow. For debugging, run /bgw-debug-flow. To only analyse a problem, run /bgw-analysis-flow. For code review, run /bgw-review-flow. For an improvement pass on finished work, run /bgw-improve-flow. For browser QA, run /bgw-qa-walk.
 
 ## Communication
 - Explain for a mid-level developer. Plain language, short sentences, ordinary verbs.

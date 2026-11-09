@@ -12,6 +12,7 @@ test conventions), those rules win and the skill adds only its process.
 | `bgw-task-flow` | You implement a feature or fix that spans more than one file | `/bgw-task-flow <ticket> <what to build>` |
 | `bgw-debug-flow` | Something is broken and the cause is unknown | `/bgw-debug-flow <symptom>` |
 | `bgw-review-flow` | You review a PR, or your own changes before opening one | `/bgw-review-flow <PR>`, `/bgw-review-flow`, `/bgw-review-flow staged` |
+| `bgw-improve-flow` | Something is built and working, and you want a second look at what could be better | `/bgw-improve-flow`, `/bgw-improve-flow <path>` |
 | `bgw-pr-brief` | You want to understand a PR before reading it | `/bgw-pr-brief <PR>` |
 | `bgw-qa-walk` | You want to see a UI change working in the browser | `/bgw-qa-walk` |
 | `bgw-explain` | You want something explained fully, in simple Romanian | `/bgw-explain`, `/bgw-explain <term, error, file>` |
@@ -19,7 +20,8 @@ test conventions), those rules win and the skill adds only its process.
 A typical ticket: `bgw-task-flow` (it runs `bgw-analysis-flow` as phase 1), then
 `bgw-qa-walk` if the change is user-facing, then `bgw-review-flow` on the branch
 before opening the PR, and `bgw-review-flow` again after fixes. A bug starts with
-`bgw-debug-flow` instead.
+`bgw-debug-flow` instead. Once the work is done and working, `bgw-improve-flow`
+looks for what could be better and writes briefs for the next `bgw-task-flow`.
 
 ### bgw-analysis-flow
 
@@ -100,6 +102,31 @@ your own changes, and re-reviews after fixes.
 
 Re-review starts from the earlier analysis file, checks each fix against the
 committed code, then reviews only the new diff.
+
+### bgw-improve-flow
+
+![bgw-improve-flow](assets/bgw-improve-flow.svg)
+
+A second look at finished work. Review asks "is this change correct?"; improve asks
+"what would make it better?". It never edits code. The only file it writes is
+`~/.claude/analyses/<repo>/<target>-improve.md`.
+
+1. Target and baseline: the current branch, `staged`, `commit`, or a path, plus its
+   direct callers. It records `HEAD`, the repo's commands, and one test run. Tests
+   that were already red are the baseline: never a finding, never required to pass.
+2. Look: eight lenses, with `ponytail:ponytail-review` for simpler code and
+   `web-design-guidelines` when the scope renders UI. Each item is tagged
+   `introduced` or `pre-existing`, carries an evidence label, and every cited line
+   is re-read before you see it. Code written in the same session gets a fresh sub-agent.
+3. Checkpoint: one table ordered by value for effort, next-step ideas apart,
+   rejected items with a reason. Then it stops and you pick.
+4. Briefs: one per picked item, for a session with no context: the starting SHA
+   and a drift check, code excerpts, a file to copy the pattern from, scope, steps
+   with commands and expected results, and STOP conditions. Hand a brief to
+   `bgw-task-flow` to build it.
+
+A second run checks each brief against `HEAD` (`done`, `stale`, `open`), then looks
+only at what changed since.
 
 ### bgw-pr-brief
 

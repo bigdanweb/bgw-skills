@@ -87,6 +87,25 @@ CARDS = [
         "command": "/bgw-review-flow <PR> | staged | commit",
     },
     {
+        "file": "bgw-improve-flow",
+        "kicker": "Claude skill · improvement",
+        "title": ["GOOD.", "NOW BETTER."],
+        "subtitle": "A second look at finished work. Briefs, not edits.",
+        "rows": [
+            ("1 · Baseline", "once", "HEAD sha · commands · one test run", " · red stays red"),
+            ("2 · Look", "8 lenses", "simpler · duplication · consistency", " · sturdy · tests · next"),
+            ("Tags", "on every item", "introduced  pre-existing", "  + evidence label"),
+            ("3 · Checkpoint", "stop", "table by value · next steps apart", " · rejected"),
+            ("4 · Briefs", "you pick", "sha · excerpts · steps · STOP", " → /bgw-task-flow"),
+        ],
+        "columns": [
+            ("Baseline first", ["Tests red before the", "pass are never blamed", "on the change."]),
+            ("Old debt counts", ["Pre-existing items in", "the touched code are", "kept, not dropped."]),
+            ("Never edits", ["Writes only its own", "file. Fixes go through", "/bgw-task-flow."]),
+        ],
+        "command": "/bgw-improve-flow [staged | commit | path]",
+    },
+    {
         "file": "bgw-pr-brief",
         "kicker": "Claude skill · PR briefing",
         "title": ["A BIG PR,", "MADE READABLE."],
