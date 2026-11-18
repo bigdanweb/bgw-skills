@@ -24,7 +24,7 @@ environment, versions, data, user, feature flags.
 Cannot reproduce: say so, list what you tried, and stop. Do not guess a fix.
 Name anything you could not access instead of guessing around it.
 
-Output, plain English, no code:
+Output, plain language, no code:
 - Symptom: what is observed, quoted exactly.
 - Repro: numbered steps, and how long one run takes.
 - Works vs breaks: the differences found.
@@ -45,7 +45,7 @@ The cause is proven when you can switch the bug on and off through it.
 "This line looks wrong" is not proof.
 Look for the root cause, not only the place where it surfaced.
 
-Output, plain English, no code:
+Output, plain language, no code:
 - Cause: what is actually wrong, and why it produces the symptom.
 - Evidence: the check that proved it.
 - Blast radius: what else shares the cause.

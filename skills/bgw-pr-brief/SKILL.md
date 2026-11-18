@@ -1,6 +1,9 @@
 ---
 name: bgw-pr-brief
 description: Reviewer's briefing for a pull request - purpose, plain-language summary, reading order, test plan, and questions for the author. Use when invoked with a PR link or number, or when the user asks how to understand or approach reviewing a PR.
+context: fork
+model: sonnet
+background: false
 ---
 
 # PR brief

@@ -23,7 +23,7 @@ Identify happy paths, edge cases, and adjacent areas that will be affected.
 Break the work into small steps that can each be verified on their own.
 Each step names its tests and its doc impact.
 
-Output, plain English, no code, two sections:
+Output, plain language, no code, three parts:
 - Technical: what changes, why, and the effect on developer experience.
 - Business: what the user or API consumer sees differently.
 - Steps: numbered, each one independently verifiable.

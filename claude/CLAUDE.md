@@ -3,7 +3,6 @@
 ## Process
 - One step at a time. Stop and confirm before moving to the next.
 - Batch clarifying questions into a single message before starting work.
-- Use plan mode for anything beyond a single-file change.
 - For a full task workflow, run /bgw-task-flow. For debugging, run /bgw-debug-flow. To only analyse a problem, run /bgw-analysis-flow. For code review, run /bgw-review-flow. For an improvement pass on finished work, run /bgw-improve-flow. For browser QA, run /bgw-qa-walk.
 
 ## Communication
@@ -27,7 +26,9 @@
 - Tests follow the repo's own conventions, not ponytail's assert/test_*.py style.
 
 ## Tests
-- Run the suite before saying you're done.
+- Run the suite before saying you're done. Here "suite" means everything except E2E.
+- E2E runs once, at the end, right before opening a PR. Not after each step or commit.
+  This overrides any skill or flow that asks for E2E earlier: defer it to that point.
 - Tests failing in areas I didn't touch: report them and stop. Don't fix.
 
 ## Honesty
