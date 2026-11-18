@@ -22,7 +22,7 @@
 <line x1="48" x2="752" y1="626.25" y2="626.25" stroke="#262626"/>
 <text x="68" y="652.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">4 · Checkpoint</text>
 <text x="732" y="652.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">stop</text>
-<text x="68" y="678.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">counts · findings · questions</tspan><tspan fill="#6f6f6f"> · recommended verdict</tspan></text>
+<text x="68" y="678.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">counts · findings · questions</tspan><tspan fill="#6f6f6f"> · escapes · verdict</tspan></text>
 <line x1="48" x2="752" y1="697.25" y2="697.25" stroke="#262626"/>
 <text x="68" y="723.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">5 · Deliver</text>
 <text x="732" y="723.25" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">after your yes</text>

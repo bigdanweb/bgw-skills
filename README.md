@@ -47,11 +47,19 @@ in rounds and stops after each one.
 
 ![bgw-task-flow](assets/bgw-task-flow.svg)
 
-Research, plan, implement, verify, summarise. Stops for confirmation between every
-phase and every step.
+Research, plan, challenge, implement, verify, summarise. Stops for confirmation
+between every phase and every step.
 
 1. Research: runs `bgw-analysis-flow`.
-2. Plan: technical and business view, then small steps that can each be verified.
+2. Plan: written into the analysis file as `## Plan`. Technical and business view,
+   a dependencies-and-failure table (one row per external input and case, each
+   marked loud or silent), then small steps that can each be verified.
+
+   **2b. Challenge:** a fresh sub-agent, without the chat, attacks the plan using the
+   analysis, the repo's rules, and `~/.claude/bgw/lessons.md`. A `blocker` is a
+   contradiction with both sides cited, or a probe on the existing system. At
+   most two rounds; the second only if the design changed. Run without stops,
+   it applies blockers itself and leaves the rest for the summary.
 3. Implement, per step: smallest diff, tests written with the change, docs updated.
 4. Verify, per step: run the suite, review the diff, say what was and was not verified.
    Points you to `bgw-qa-walk` when the change is user-facing.
@@ -94,14 +102,19 @@ your own changes, and re-reviews after fixes.
    finding counts only if the diff causes it. Evidence bar: a `blocker` needs
    `verified`, a `warning` needs `read` with the exact path, an `assumed` becomes
    a question for the author. Each finding comes with a suggested fix.
-4. Checkpoint: severity counts, findings, questions, out-of-scope leads, and a
-   recommended verdict. Then it stops.
+   On your own code, a finding the plan did not foresee is an escape, and gets a
+   proposed lesson: the question that would have caught it at planning.
+4. Checkpoint: severity counts, findings, questions, out-of-scope leads, escapes,
+   and a recommended verdict. Then it stops.
 5. Deliver: for someone else's PR, after your yes, a pending review that you
-   submit yourself. For your own code, nothing leaves the machine and no file
-   is changed.
+   submit yourself. For your own code, nothing leaves the machine and no code
+   is changed; lessons you approved are appended to `~/.claude/bgw/lessons.md`.
 
 Re-review starts from the earlier analysis file, checks each fix against the
 committed code, then reviews only the new diff.
+
+`~/.claude/bgw/lessons.md` stays local and is not in this repository. Each line is
+one question, tagged `general` or with a repo name. `bgw-task-flow` reads it in 2b.
 
 ### bgw-improve-flow
 

@@ -66,6 +66,15 @@ A finding below its bar drops one severity, or becomes a question.
 Each finding: severity, label, file:line, problem, why it matters, suggested fix
 as code plus a short explanation. Write them all to the analysis file.
 
+### Escapes (my own code only)
+
+Find the task's analysis file in ~/.claude/analyses/<repo>/: the one with
+`## Plan` for this work. If unsure which, ask. If none has a plan, skip this.
+
+Compare each finding with `## Plan` and `## Challenge`. A finding the plan did
+not foresee is an escape. For each escape, propose one question that would have
+caught it at planning, and a tag: `general`, or the repo name if it only holds there.
+
 ## 4. Checkpoint
 
 In chat, short:
@@ -73,6 +82,7 @@ In chat, short:
 - Each finding in one line, with its label.
 - Questions for the author, or for me on my own code.
 - Out of scope leads, one line each.
+- Escapes, on my own code: each with its proposed lesson and tag.
 - Recommended verdict: comment, request changes, or approve.
 
 Then stop. I cut, adjust, or approve findings.
@@ -88,6 +98,8 @@ Someone else's PR, after my yes:
 
 My own code: nothing leaves the machine. The findings stay in the file and chat.
 No code is changed. I write the fixes, or ask for one explicitly through /bgw-task-flow.
+Lessons I approved at the checkpoint are appended to ~/.claude/bgw/lessons.md,
+one line each, with tag, source, and date. Nothing else is written there.
 
 ## Re-review
 
@@ -101,4 +113,5 @@ Recommend approve only when every earlier finding is closed.
 
 - Edit, stage, or commit the code under review.
 - Submit a review, or post anything, without my yes.
+- Write a lesson to ~/.claude/bgw/lessons.md without my yes.
 - Copy tokens, identity numbers, salary, or bank details into comments, chat, or the file.

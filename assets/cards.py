@@ -33,10 +33,11 @@ CARDS = [
         "file": "bgw-task-flow",
         "kicker": "Claude skill · implementation",
         "title": ["FROM TICKET", "TO DIFF."],
-        "subtitle": "Research, plan, implement, verify, summarise.",
+        "subtitle": "Research, plan, challenge, implement, verify, summarise.",
         "rows": [
             ("1 · Research", "once", "/bgw-analysis-flow", " → analysis file"),
-            ("2 · Plan", "once", "technical · business · steps", " each verifiable"),
+            ("2 · Plan", "once", "technical · business · failure table", " · steps"),
+            ("2b · Challenge", "fresh sub-agent", "attacks the plan · lessons", " · max 2 rounds"),
             ("3 · Implement", "per step ↻", "smallest diff + tests", " · docs it invalidates"),
             ("4 · Verify", "per step ↻", "run the suite · review the diff", " · what was verified"),
             ("5 · Summarise", "once", "docs/<task-name>.md", " · one Mermaid per section"),
@@ -76,7 +77,7 @@ CARDS = [
             ("1 · Target", "from the argument", "PR · branch · staged · commit", " · re-review if a file exists"),
             ("2 · Orient", "once", "/bgw-pr-brief · gh pr checks", " · /bgw-analysis-flow"),
             ("3 · Findings", "evidence bar", "blocker=verified  warning=read", "  assumed→question"),
-            ("4 · Checkpoint", "stop", "counts · findings · questions", " · recommended verdict"),
+            ("4 · Checkpoint", "stop", "counts · findings · questions", " · escapes · verdict"),
             ("5 · Deliver", "after your yes", "pending review on GitHub", " · own code stays local"),
         ],
         "columns": [
