@@ -190,8 +190,8 @@ communication, implementation, tests, and honesty rules for every project.
 ## Install
 
 ```powershell
-git clone https://github.com/bogdan-dimoiu/bgw-skills.git $HOME\Desktop\CODE\bgw-skills
-& $HOME\Desktop\CODE\bgw-skills\install.ps1
+git clone https://github.com/bigdanweb/bgw-skills.git $HOME\Desktop\WORK\bgw-skills
+& $HOME\Desktop\WORK\bgw-skills\install.ps1
 ```
 
 The script links each skill folder into `~/.claude/skills`, and the `output-styles`
