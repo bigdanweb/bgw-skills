@@ -29,7 +29,8 @@ from the default, show both candidates and ask.
 Re-review: an analysis file for this target already exists. Go to "Re-review".
 
 Code written in this session: run phases 2 and 3 in a fresh sub-agent,
-so the author does not grade its own work.
+so the author does not grade its own work. Its brief names the task's
+analysis file, or says there is none, for Escapes.
 
 ## 2. Orient and analyse
 
@@ -63,17 +64,26 @@ Evidence bar, using the labels from /bgw-analysis-flow:
 - `assumed`: never a finding. It becomes a question for the author.
 A finding below its bar drops one severity, or becomes a question.
 
-Each finding: severity, label, file:line, problem, why it matters, suggested fix
-as code plus a short explanation. Write them all to the analysis file.
+Each finding: id (B1, W1, N1 by severity; on re-review, continue the numbering),
+severity, label, file:line, problem, why it matters, suggested fix as code plus
+a short explanation. Write them all to the analysis file.
 
 ### Escapes (my own code only)
 
 Find the task's analysis file in ~/.claude/analyses/<repo>/: the one with
-`## Plan` for this work. If unsure which, ask. If none has a plan, skip this.
+`## Plan` for this work. If unsure which, ask; a sub-agent uses what its brief
+says. If none has a plan, the checkpoint says "Escapes: skipped, no plan found".
+If it has no `## Challenge`, the checkpoint says so, and the comparison uses
+`## Plan` only.
 
-Compare each finding with `## Plan` and `## Challenge`. A finding the plan did
-not foresee is an escape. For each escape, propose one question that would have
-caught it at planning, and a tag: `general`, or the repo name if it only holds there.
+Compare each `blocker` and `warning` with `## Plan` and `## Challenge`. One the
+plan did not foresee and `## Challenge` did not raise is an escape. One that
+`## Challenge` raised but no `## Plan` change cites by id is listed as "seen,
+not applied", not an escape. For each escape, propose one question that would
+have caught it at planning, and a tag: `general`, or the `<repo>` folder name
+under ~/.claude/analyses/ if it only holds there. At the checkpoint I may also
+promote any other item; the review then proposes its question and tag the
+same way.
 
 ## 4. Checkpoint
 
@@ -82,7 +92,9 @@ In chat, short:
 - Each finding in one line, with its label.
 - Questions for the author, or for me on my own code.
 - Out of scope leads, one line each.
-- Escapes, on my own code: each with its proposed lesson and tag.
+- Escapes, on my own code: each with its proposed lesson and tag, the "seen,
+  not applied" items, and any skipped or `## Plan`-only line.
+  On re-review: "Escapes: n/a on re-review".
 - Recommended verdict: comment, request changes, or approve.
 
 Then stop. I cut, adjust, or approve findings.
@@ -99,14 +111,18 @@ Someone else's PR, after my yes:
 My own code: nothing leaves the machine. The findings stay in the file and chat.
 No code is changed. I write the fixes, or ask for one explicitly through /bgw-task-flow.
 Lessons I approved at the checkpoint are appended to ~/.claude/bgw/lessons.md,
-one line each, with tag, source, and date. Nothing else is written there.
+one line each: `` - `<tag>` - <question> (<repo>, <PR or branch>, <finding id>, <YYYY-MM-DD>) ``.
+The parenthesis is the lesson's source. `<repo>` is the folder name under
+~/.claude/analyses/. A promoted item keeps its id; one without an id uses its
+kind, for example `out of scope`. Nothing else is written there.
 
 ## Re-review
 
 Start from the existing analysis file.
 For each earlier finding, check the fix in the committed code, not the author's
 claim: `fixed`, `declined-accepted`, `declined-held`, or `still open`, with evidence.
-Then run phases 3 to 5 on the new diff only: what changed since the last review.
+Then run phases 3 to 5 on the new diff only, without Escapes: what changed since
+the last review.
 Recommend approve only when every earlier finding is closed.
 
 ## Never

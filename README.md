@@ -104,8 +104,9 @@ your own changes, and re-reviews after fixes.
    finding counts only if the diff causes it. Evidence bar: a `blocker` needs
    `verified`, a `warning` needs `read` with the exact path, an `assumed` becomes
    a question for the author. Each finding comes with a suggested fix.
-   On your own code, a finding the plan did not foresee is an escape, and gets a
-   proposed lesson: the question that would have caught it at planning.
+   On your own code, a `blocker` or `warning` that neither the plan nor its
+   challenge foresaw is an escape, and gets a proposed lesson: the question that
+   would have caught it at planning.
 4. Checkpoint: severity counts, findings, questions, out-of-scope leads, escapes,
    and a recommended verdict. Then it stops.
 5. Deliver: for someone else's PR, after your yes, a pending review that you
@@ -116,7 +117,8 @@ Re-review starts from the earlier analysis file, checks each fix against the
 committed code, then reviews only the new diff.
 
 `~/.claude/bgw/lessons.md` stays local and is not in this repository. Each line is
-one question, tagged `general` or with a repo name. `bgw-task-flow` reads it in 2b.
+one question, tagged `general` or with the repo's folder name under
+`~/.claude/analyses/`. `bgw-task-flow` reads it in 2b.
 
 ### bgw-improve-flow
 

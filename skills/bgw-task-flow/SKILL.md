@@ -22,7 +22,8 @@ Write the plan into that same file as `## Plan`. The chat is not the plan.
 
 Identify happy paths, edge cases, and adjacent areas that will be affected.
 Break the work into small steps that can each be verified on their own.
-Each step names its tests and its doc impact.
+Each step names its tests, its doc impact, and the table rows it implements.
+Every table row is named by at least one step, and gets a test or a check.
 
 Output, plain language, no code, four parts:
 - Technical: what changes, why, and the effect on developer experience.
@@ -75,17 +76,18 @@ Evidence bar. No new code exists yet, so nothing new can be run:
 - `assumed`: never a finding. It becomes a question for me.
 A finding that fits more than one case takes the higher severity.
 
-It writes its findings to the analysis file as `## Challenge`, with the
+It writes its findings to the analysis file as `## Challenge`, numbered
+C1, C2... in round 1 and R1, R2... in round 2, with the
 repo tag it used and every lesson in the file, one line each: asked, with
 its finding or "does not apply" and why; or not asked, and why.
 Checkpoint: I cut, adjust, or accept. The main session then revises `## Plan`
-and notes, per change, which finding caused it.
+and notes, per change, the id of the finding that caused it.
 
 Round 2 only if the revision changed the design: a new decision, not wording
 or docs. A new fresh sub-agent gets only what changed in the plan. No round 3.
 
-When I said to run phases without stopping: apply every `blocker` to the plan
-and log it. A silent-behaviour blocker is applied by making the path loud,
+When I said to run phases without stopping: apply every `blocker` to the plan,
+citing its id. A silent-behaviour blocker is applied by making the path loud,
 never by adding a reason. Warnings and questions stay in `## Challenge` and
 go into the final summary. Do not wait.
 
@@ -99,7 +101,8 @@ Update docs the change invalidates.
 
 Run the test suite.
 Review your own diff for structure, security, scalability, dead code.
-Confirm the step matches what phase 2 said it would do.
+Confirm the step matches what phase 2 said it would do, and that each table row
+the step names behaves as the table says.
 Unrelated failures: report and stop.
 End with an explicit line on what you verified and what you could not.
 
