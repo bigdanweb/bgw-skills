@@ -59,7 +59,7 @@ CARDS = [
             ("2 · Hypothesise", "once", "2–4 ranked causes", " · one check that rules each out"),
             ("3 · Prove", "once", "bug on ↔ bug off", " · root cause, not the call site"),
             ("4 · Fix", "per step ↻", "red test → smallest fix → suite", " · logging removed"),
-            ("5 · Summarise", "once", "docs/<bug-name>.md", " · why it was missed"),
+            ("5 · Summarise", "once", "## Summary in analysis file", " · why it was missed"),
         ],
         "columns": [
             ("UI / browser", ["Console and network on", "the failing path; check", "hydration and caches."]),

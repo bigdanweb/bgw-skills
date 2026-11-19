@@ -64,8 +64,9 @@ If the bug is user-facing, tell me to run /bgw-qa-walk. Don't skip it silently.
 
 ## 5. Summarize (once)
 
-Write docs/<bug-name>.md, aimed at both a future developer and a future
-Claude session with no context:
+Write the summary into the analysis file as `## Summary`. If the repo already
+has a docs/ folder, also write it as docs/<bug-name>.md. Aim it at both a
+future developer and a future Claude session with no context:
 
 - Symptom: what users or callers saw.
 - Cause: what was wrong, and how it was found.

@@ -83,7 +83,8 @@ No fix before the cause is proven.
 3. Prove the cause: you can switch the bug on and off through it.
 4. Fix, per step: the regression test first and failing for the right reason,
    then the smallest fix, then the suite. Temporary logging is removed.
-5. Summarise: `docs/<bug-name>.md` with symptom, cause, fix, why it was missed,
+5. Summarise: `## Summary` in the analysis file, and `docs/<bug-name>.md` too when
+   the repo already has a `docs/` folder. Symptom, cause, fix, why it was missed,
    and a diagram of the failing path before and after.
 
 Extra checklists for UI and browser bugs, server and API bugs, and CI and tooling bugs.
