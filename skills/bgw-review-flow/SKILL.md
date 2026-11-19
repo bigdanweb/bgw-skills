@@ -95,6 +95,9 @@ In chat, short:
 - Escapes, on my own code: each with its proposed lesson and tag, the "seen,
   not applied" items, and any skipped or `## Plan`-only line.
   On re-review: "Escapes: n/a on re-review".
+- Lessons to delete, on my own code, not on re-review: each line that
+  `bash <this skill's folder>/../../scripts/lesson-stats.sh` marks `DELETE?`,
+  with its counts, or "none".
 - Recommended verdict: comment, request changes, or approve.
 
 Then stop. I cut, adjust, or approve findings.
@@ -114,7 +117,8 @@ Lessons I approved at the checkpoint are appended to ~/.claude/bgw/lessons.md,
 one line each: `` - `<tag>` - <question> (<repo>, <PR or branch>, <finding id>, <YYYY-MM-DD>) ``.
 The parenthesis is the lesson's source. `<repo>` is the folder name under
 ~/.claude/analyses/. A promoted item keeps its id; one without an id uses its
-kind, for example `out of scope`. Nothing else is written there.
+kind, for example `out of scope`. Lessons I approved for deletion are removed.
+Nothing else changes there.
 
 ## Re-review
 
@@ -129,5 +133,5 @@ Recommend approve only when every earlier finding is closed.
 
 - Edit, stage, or commit the code under review.
 - Submit a review, or post anything, without my yes.
-- Write a lesson to ~/.claude/bgw/lessons.md without my yes.
+- Write or delete a lesson in ~/.claude/bgw/lessons.md without my yes.
 - Copy tokens, identity numbers, salary, or bank details into comments, chat, or the file.

@@ -79,8 +79,14 @@ A finding that fits more than one case takes the higher severity.
 
 It writes its findings to the analysis file as `## Challenge`, numbered
 C1, C2... in round 1 and R1, R2... in round 2, with the
-repo tag it used and every lesson in the file, one line each: asked, with
-its finding or "does not apply" and why; or not asked, and why.
+repo tag it used and every lesson in the file, one line each, in one of these
+forms, `<source>` being the lesson's parenthesis:
+
+    - lesson (<source>): <finding id> - <why>
+    - lesson (<source>): does not apply - <why>
+    - lesson (<source>): not asked - <why>
+
+/bgw-review-flow counts these lines to find lessons that stopped catching anything.
 Checkpoint: I cut, adjust, or accept. The main session then revises `## Plan`
 and notes, per change, the id of the finding that caused it.
 

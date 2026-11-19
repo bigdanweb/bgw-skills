@@ -110,10 +110,11 @@ your own changes, and re-reviews after fixes.
    challenge foresaw is an escape, and gets a proposed lesson: the question that
    would have caught it at planning.
 4. Checkpoint: severity counts, findings, questions, out-of-scope leads, escapes,
-   and a recommended verdict. Then it stops.
+   lessons to delete, and a recommended verdict. Then it stops.
 5. Deliver: for someone else's PR, after your yes, a pending review that you
    submit yourself. For your own code, nothing leaves the machine and no code
-   is changed; lessons you approved are appended to `~/.claude/bgw/lessons.md`.
+   is changed; lessons you approved are appended to `~/.claude/bgw/lessons.md`,
+   and lessons you approved for deletion are removed.
 
 Re-review starts from the earlier analysis file, checks each fix against the
 committed code, then reviews only the new diff.
@@ -121,6 +122,11 @@ committed code, then reviews only the new diff.
 `~/.claude/bgw/lessons.md` stays local and is not in this repository. Each line is
 one question, tagged `general` or with the repo's folder name under
 `~/.claude/analyses/`. `bgw-task-flow` reads it in 2b.
+
+2b writes one line per lesson per challenge round: `- lesson (<source>): ` followed
+by a finding id, `does not apply`, or `not asked`. [`scripts/lesson-stats.sh`](scripts/lesson-stats.sh)
+counts those lines; a lesson asked 10 times since its last finding is marked `DELETE?`,
+and `bgw-review-flow` proposes deleting it at the checkpoint.
 
 ### bgw-improve-flow
 
