@@ -102,6 +102,9 @@ Update docs the change invalidates.
 ## 4. Verify (per step)
 
 Run the test suite.
+A text-only change with no suite: write its checks as a spec for
+`<this skill's folder>/../../scripts/check-text.sh` and run it. `=1` for the new
+wording, `=0` for the wording it replaces.
 Review your own diff for structure, security, scalability, dead code.
 Confirm the step matches what phase 2 said it would do, and that each table row
 the step names behaves as the table says.
