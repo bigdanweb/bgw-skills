@@ -57,7 +57,9 @@ between every phase and every step.
 
    **2b. Challenge:** a fresh sub-agent, without the chat, attacks the plan using the
    analysis, the repo's rules, and `~/.claude/bgw/lessons.md`. A `blocker` is a
-   contradiction with both sides cited, or a probe on the existing system. At
+   contradiction with both sides cited, a probe on the existing system, a silent
+   behaviour with no stated reason, a missing dependencies table, or the answer a
+   lesson warns against. At
    most two rounds; the second only if the design changed. Run without stops,
    it applies blockers itself and leaves the rest for the summary.
 3. Implement, per step: smallest diff, tests written with the change, docs updated.

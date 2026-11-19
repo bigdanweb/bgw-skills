@@ -43,7 +43,9 @@ The author does not grade its own plan. A fresh sub-agent attacks it.
 
 Its brief is its only context:
 - The analysis file, with `## Plan`.
-- `~/.claude/bgw/lessons.md`: lessons tagged `general` and this repo's name.
+- `~/.claude/bgw/lessons.md`. This repo's tag is its `<repo>` folder under
+  ~/.claude/analyses/. Missing or empty: say so in `## Challenge`.
+- This skill's text. Its rules count as repo rules.
 - The repo's rules: CLAUDE.md, docs, comments that state a rule.
 - The code.
 Not the chat, so it does not inherit the reasoning it should test.
@@ -55,18 +57,27 @@ It looks for:
 - Contradictions: plan vs a repo rule, plan vs a `verified` fact in the
   analysis, plan vs itself, and two claims in the analysis that disagree.
 - Failure paths missing from the dependencies table.
-- Each lesson, asked against this plan.
+- Each lesson tagged `general` or with this repo's tag, asked against this
+  plan. A lesson that does not apply to this plan is not a finding.
 - Steps that cannot be verified on their own.
 
 Evidence bar. No new code exists yet, so nothing new can be run:
 - `blocker`: a contradiction with both sides cited (file:line, plan row,
-  or analysis claim), or a probe on the existing system that disproves
-  an assumption the plan rests on.
+  analysis claim, or a lesson by tag and source); a probe on the existing
+  system that disproves an assumption the plan rests on; a silent
+  behaviour the plan describes, in the table or outside it, with no stated
+  reason; a plan without the dependencies table; or a plan that gives the
+  answer a lesson warns against, with no stated reason. A reason that only
+  restates the silence is no reason.
 - `warning`: a failure path missing from the table, with the source that
-  shows the path exists.
+  shows the path exists; or a step that cannot be verified on its own,
+  with the reason.
 - `assumed`: never a finding. It becomes a question for me.
+A finding that fits more than one case takes the higher severity.
 
-It writes its findings to the analysis file as `## Challenge`.
+It writes its findings to the analysis file as `## Challenge`, with the
+repo tag it used and every lesson in the file, one line each: asked, with
+its finding or "does not apply" and why; or not asked, and why.
 Checkpoint: I cut, adjust, or accept. The main session then revises `## Plan`
 and notes, per change, which finding caused it.
 
@@ -74,8 +85,9 @@ Round 2 only if the revision changed the design: a new decision, not wording
 or docs. A new fresh sub-agent gets only what changed in the plan. No round 3.
 
 When I said to run phases without stopping: apply every `blocker` to the plan
-and log it. Warnings and questions stay in `## Challenge` and go into the
-final summary. Do not wait.
+and log it. A silent-behaviour blocker is applied by making the path loud,
+never by adding a reason. Warnings and questions stay in `## Challenge` and
+go into the final summary. Do not wait.
 
 ## 3. Implement (per step)
 
