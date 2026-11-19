@@ -115,8 +115,9 @@ If the change is user-facing, tell me to run /bgw-qa-walk. Don't skip it silentl
 
 ## 5. Summarize (once)
 
-Write docs/<task-name>.md, aimed at both a future developer and a future
-Claude session with no context:
+Write the summary into the analysis file as `## Summary`. If the repo already
+has a docs/ folder, also write it as docs/<task-name>.md. Aim it at both a
+future developer and a future Claude session with no context:
 
 - Technical: what changed, why, and the impact.
 - Business: what behaviour changed for the user or consumer.

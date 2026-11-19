@@ -40,7 +40,7 @@ CARDS = [
             ("2b · Challenge", "fresh sub-agent", "attacks the plan · lessons", " · max 2 rounds"),
             ("3 · Implement", "per step ↻", "smallest diff + tests", " · docs it invalidates"),
             ("4 · Verify", "per step ↻", "run the suite · review the diff", " · what was verified"),
-            ("5 · Summarise", "once", "docs/<task-name>.md", " · one Mermaid per section"),
+            ("5 · Summarise", "once", "## Summary in analysis file", " · + docs/ if the repo has it"),
         ],
         "columns": [
             ("Stops often", ["Waits for your yes", "between every phase", "and every step."]),

@@ -30,7 +30,7 @@
 <line x1="48" x2="752" y1="801.5" y2="801.5" stroke="#262626"/>
 <text x="68" y="827.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="start" letter-spacing="0">5 · Summarise</text>
 <text x="732" y="827.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#9a9a9a" text-anchor="end" letter-spacing="0">once</text>
-<text x="68" y="853.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">docs/&lt;task-name&gt;.md</tspan><tspan fill="#6f6f6f"> · one Mermaid per section</tspan></text>
+<text x="68" y="853.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15"><tspan fill="#ededed">## Summary in analysis file</tspan><tspan fill="#6f6f6f"> · + docs/ if the repo has it</tspan></text>
 <text x="48.0" y="918.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#6f6f6f" text-anchor="start" letter-spacing="0">01</text>
 <text x="48.0" y="950.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#111111" text-anchor="start" letter-spacing="0">Stops often</text>
 <text x="48.0" y="978.5" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#5c5c5c" text-anchor="start" letter-spacing="0">Waits for your yes</text>

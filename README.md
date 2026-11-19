@@ -65,7 +65,8 @@ between every phase and every step.
 3. Implement, per step: smallest diff, tests written with the change, docs updated.
 4. Verify, per step: run the suite, review the diff, say what was and was not verified.
    Points you to `bgw-qa-walk` when the change is user-facing.
-5. Summarise: `docs/<task-name>.md` with technical and business sections, one
+5. Summarise: `## Summary` in the analysis file, and `docs/<task-name>.md` too when
+   the repo already has a `docs/` folder. Technical and business sections, one
    Mermaid diagram per section, and adjacent items you noticed but did not fix.
 
 ### bgw-debug-flow
