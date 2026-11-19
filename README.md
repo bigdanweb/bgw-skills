@@ -191,6 +191,23 @@ Select it in Settings → Claude Code → Output style. It applies to new sessio
 [`claude/CLAUDE.md`](claude/CLAUDE.md) is the global `~/.claude/CLAUDE.md`: process,
 communication, implementation, tests, and honesty rules for every project.
 
+## Text checks
+
+[`scripts/check-text.sh`](scripts/check-text.sh) checks a text-only change, such as an
+edit to a skill, where no test suite exists. Write one check per line in a spec file,
+then run `bash scripts/check-text.sh <spec>` from the folder the paths start in.
+
+```
+# =N FILE PHRASE: PHRASE occurs exactly N times (fixed string, wrapped lines joined)
+=1 skills/bgw-task-flow/SKILL.md plan, challenge, implement
+=0 skills/bgw-task-flow/SKILL.md research, plan, implement
+# @N FILE TEXT: line N is exactly TEXT
+@2 skills/bgw-task-flow/SKILL.md name: bgw-task-flow
+```
+
+Use `=1` for the new wording and `=0` for the wording it replaces, so text added next
+to the old text still fails. It prints one PASS or FAIL per line, and exits 1 if any fail.
+
 ## Install
 
 ```powershell
