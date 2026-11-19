@@ -1,6 +1,6 @@
 ---
 name: bgw-task-flow
-description: Structured workflow for a non-trivial task - research, plan, implement, verify, summarize. Use when starting a bug fix or feature that spans more than one file.
+description: Structured workflow for a non-trivial task - research, plan, challenge, implement, verify, summarize. Use when starting a bug fix or feature that spans more than one file.
 ---
 
 # Task flow
@@ -31,12 +31,13 @@ Output, plain language, no code, four parts:
 - Dependencies and failure: a table. One row per external thing the design
   relies on (API, database, config, env, clock, another job) and per case:
   normal, missing or empty, error (403, timeout), malformed.
-  Columns: what the code does, what the user sees, loud or silent.
+  Columns: dependency, case, what the code does, what the user sees, loud or silent.
   A silent row needs a stated reason, or it is a design bug.
 - Steps: numbered, each one independently verifiable.
 
-Example row: `/v2/teams` `billing` | missing | falls back to Hobby |
-credit meter gone, no alert | silent.
+Example, design bug, silent with no reason: `/v2/teams` `billing` | missing |
+falls back to Hobby | credit meter gone, no alert | silent.
+Example, fixed: `/v2/teams` `billing` | missing | throws | status card red | loud.
 
 ## 2b. Challenge
 
@@ -84,7 +85,8 @@ Checkpoint: I cut, adjust, or accept. The main session then revises `## Plan`
 and notes, per change, the id of the finding that caused it.
 
 Round 2 only if the revision changed the design: a new decision, not wording
-or docs. A new fresh sub-agent gets only what changed in the plan. No round 3.
+or docs. A new fresh sub-agent gets the same brief and attacks only what
+changed in the plan. No round 3.
 
 When I said to run phases without stopping: apply every `blocker` to the plan,
 citing its id. A silent-behaviour blocker is applied by making the path loud,

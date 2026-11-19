@@ -91,7 +91,7 @@ Complete when every claim the decision rests on is `verified` or `told`, and eve
 open question is answered or written down with the reason it cannot be.
 If it is not complete, say so plainly and name what is missing.
 
-The analysis file ends with this shape:
+The analysis part of the file has this shape:
 - Problem: in plain words.
 - What we know: every claim, labelled.
 - Adjacent impact: what else is touched, and how.
