@@ -46,6 +46,9 @@ contracts and data it changes, which business rules, processes and tests depend 
 
 Review the diff against these criteria, plus any area skills or plans the repo has:
 1. Correctness: does it do what it claims, on every path.
+   When the diff adds a rule that decides on a value, follow that value to
+   every place it is stored or forwarded, unchanged lines included. What is
+   stored must be what the rule checked.
 2. Contracts and types: callers and consumers still hold.
 3. Security and personal data: input, auth, secrets, what reaches logs.
 4. Errors and edge cases: empty, null, failure, concurrency, retries.
@@ -63,6 +66,9 @@ Evidence bar, using the labels from /bgw-analysis-flow:
 - `nit`: `read` is enough.
 - `assumed`: never a finding. It becomes a question for the author.
 A finding below its bar drops one severity, or becomes a question.
+When the code fact is `read` or `verified` and only its consequence is
+`assumed`, it stays a finding at the fact's bar. The consequence becomes
+its question. Do not turn the whole finding into a question.
 
 Each finding: id (B1, W1, N1 by severity; on re-review, continue the numbering),
 severity, label, file:line, problem, why it matters, suggested fix as code plus
