@@ -108,6 +108,8 @@ Update docs the change invalidates.
 ## 4. Verify (per step)
 
 Run the test suite.
+Tests the suite does not run (E2E, Postman): grep them for every field and
+response value the change touches.
 A text-only change with no suite: write its checks as a spec for
 `<this skill's folder>/../../scripts/check-text.sh` and run it. `=1` for the new
 wording, `=0` for the wording it replaces.
