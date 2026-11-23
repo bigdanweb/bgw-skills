@@ -16,6 +16,7 @@ test conventions), those rules win and the skill adds only its process.
 | `bgw-pr-brief` | You want to understand a PR before reading it | `/bgw-pr-brief <PR>` |
 | `bgw-qa-walk` | You want to see a UI change working in the browser | `/bgw-qa-walk` |
 | `bgw-explain` | You want something explained fully, in simple Romanian | `/bgw-explain`, `/bgw-explain <term, error, file>` |
+| `bgw-linkedin` | You want a LinkedIn post and its image from a story or rough text | `/bgw-linkedin <story or text>` |
 
 A typical ticket: `bgw-task-flow` (it runs `bgw-analysis-flow` as phase 1), then
 `bgw-qa-walk` if the change is user-facing, then `bgw-review-flow` on the branch
@@ -181,6 +182,17 @@ the session is now; with one it explains that thing in the session's context. Al
 four parts: in short, how it works (as steps, with a real example from the session),
 why it matters here, and what to remember. A small Mermaid diagram when the
 explanation is a flow. Technical terms stay in English with a Romanian gloss.
+
+### bgw-linkedin
+
+Turns a story or rough text into a LinkedIn post and its 1080x1350 image on the
+design canvas. It looks for the idea in the NOTES vault first, then on the web,
+with a link and a certainty tag for every fact. It generalizes every client,
+employer and project name. It proposes 3 angles, then writes the one you pick with
+one of five text templates and builds the image from seven layouts and four
+monochrome themes. A log in `NOTES/LinkedIn/log.md` keeps the template, layout and
+theme different from the last two posts. Runs only from Claude Code, because the
+notes are on disk.
 
 ## Output style: bgw-plain
 

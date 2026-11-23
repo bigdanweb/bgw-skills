@@ -163,6 +163,26 @@ CARDS = [
         "command": "/bgw-explain [term | error | file]",
     },
     {
+        "file": "bgw-linkedin",
+        "kicker": "Claude skill · LinkedIn",
+        "title": ["STORY IN,", "POST OUT."],
+        "subtitle": "Your story becomes a post and its image, never the same shape twice.",
+        "rows": [
+            ("Input", "required", "/bgw-linkedin <story or text>", " · add \"direct\" to skip step 3"),
+            ("1 · Idea", "notes first", "grep NOTES · read 3–5 notes", " · then the web, with sources"),
+            ("2 · Privacy", "always", "no clients, employer, projects", " · everything generalized"),
+            ("3 · Angles", "you pick", "3 angles · template + source", ""),
+            ("4 · Text", "5 templates", "decision · story · contrarian", " · lessons · micro"),
+            ("5 · Image", "7 × 4", "layouts × monochrome themes", " · logged in NOTES/LinkedIn"),
+        ],
+        "columns": [
+            ("No repeats", ["Template, layout and theme", "differ from the last", "two posts."]),
+            ("Sourced", ["Every web fact has a link", "and a certainty tag."]),
+            ("Monochrome", ["Night, paper, terminal,", "grid. Black, white, grey."]),
+        ],
+        "command": "/bgw-linkedin <story or text>",
+    },
+    {
         "file": "bgw-plain",
         "kicker": "Output style · every message",
         "title": ["RESULT FIRST,", "THEN WHY."],
